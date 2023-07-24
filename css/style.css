@@ -561,6 +561,7 @@ section {
   width: 100%;
   color: var(--color-white);
   resize: none;
+  border: 1px solid var(--color-secondary);
 }
 .contact-content-con .right-contact .i-c-2 {
   display: flex;
@@ -649,6 +650,28 @@ section {
   padding-left: 0;
 }
 
+.input-control button{
+  border-radius: 30px;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.8rem 1.1rem;
+  outline: none;
+  border: none;
+  background-color: var(--color-primary);
+  width: 20%;
+  color: var(--color-white);
+  resize: none;
+  cursor: pointer;
+  border:solid 1px var(--color-secondary);
+}
+
+.input-control button:hover{
+  cursor: pointer;
+  background-color: var(--color-secondary);
+  transform: translateX(0);
+  transition: all 0.4s ease-in;
+}
 
 /*medias queries*/
 @media screen and (max-width: 600px) {
