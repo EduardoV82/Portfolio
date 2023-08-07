@@ -313,16 +313,21 @@ section {
   width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 80%;
+  width: 90%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 95%;
+  width: 80%;
 }
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .btp{
+  width: 80%;
+}
+
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 75%;
+  width: 45%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 60%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .py {
+  width: 25%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .node {
   width: 87%;
